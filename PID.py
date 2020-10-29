@@ -88,7 +88,7 @@ car_1 = Car(x=0, y=0.3, pose=5 * np.pi / 180)
 car_2 = Car(x=0, y=0.3, pose=5 * np.pi / 180)
 car_3 = Car(x=0, y=0.3, pose=5 * np.pi / 180)
 
-# insert thr current (first) value of x and y
+# insert the current (first) value of x and y
 # into the caches.
 y_cache_1 = np.array([car_1.y()])
 x_cache_1 = np.array([car_1.x()])
