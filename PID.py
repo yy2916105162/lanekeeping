@@ -76,8 +76,8 @@ class PIDControler:
         control_action += self.__ki * self.__error_sum  # add the integration component
         return control_action  # return the value of sum of all three components
 
-t_sampling = 0.001  # value of each discrete time
-num_points = 5000
+t_sampling = 0.025  # value of each discrete time
+num_points = 2000
 
 # Cars under same conditions and
 # P Controllers with different proportional gains.
