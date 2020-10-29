@@ -80,7 +80,7 @@ t_sampling = 0.025  # value of each discrete time
 num_points = 2000
 
 # Cars under same conditions and
-# P Controllers with different proportional gains.
+# PID Controllers with the same Kp and Kd and different Ki
 pid_1 = PIDControler(kp=0.4, ki=0.5, kd=1.5, ts=t_sampling)
 pid_2 = PIDControler(kp=0.4, ki=1.0, kd=1.5, ts=t_sampling)
 pid_3 = PIDControler(kp=0.4, ki=1.5, kd=1.5, ts=t_sampling)
